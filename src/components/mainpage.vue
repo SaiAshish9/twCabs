@@ -33,20 +33,20 @@ Book Your Cab With Thailandwale
 </div>
 <br/>
 
-<div class="triangle" v-if="selected==='Bangkok'"   style="position:relative;top:10vh;left:-34vh; margin:auto;font-weight:bold;color:#f1f2f3;font-size:2rem;">
+<div class="triangle" v-if="selected==='Bangkok'"   style="position:relative;top:10vh;left:-31.5vh; margin:auto;font-weight:bold;color:#f1f2f3;font-size:2rem;">
 
 </div>
 
 
-<div class="triangle"  v-if="selected==='Pattaya'"  style="position:relative;top:10vh; bottom:2rem;left:-11vh;margin:auto;font-weight:bold;color:#f1f2f3;font-size:2rem;">
+<div class="triangle"  v-if="selected==='Pattaya'"  style="position:relative;top:10vh; bottom:2rem;left:-10.5vh;margin:auto;font-weight:bold;color:#f1f2f3;font-size:2rem;">
 
 </div>
 
-<div class="triangle"   v-if="selected==='Phuket'" style="position:relative;top:10vh;left:12vh;margin:auto;font-weight:bold;color:#f1f2f3;font-size:2rem;">
+<div class="triangle"   v-if="selected==='Phuket'" style="position:relative;top:10vh;left:10.5vh;margin:auto;font-weight:bold;color:#f1f2f3;font-size:2rem;">
 
 </div>
 
-<div class="triangle"   v-if="selected==='Krabi'" style="position:relative;top:10vh; left:35vh;margin:auto;font-weight:bold;color:#f1f2f3;font-size:2rem;">
+<div class="triangle"   v-if="selected==='Krabi'" style="position:relative;top:10vh; left:31.5vh;margin:auto;font-weight:bold;color:#f1f2f3;font-size:2rem;">
 
 </div>
 
@@ -57,31 +57,33 @@ Book Your Cab With Thailandwale
 
 
 
-<div class="centerBlock" style="position:absolute;top:42.4vh;left:2rem;margin:auto;width:40rem; height:29vh;background: white;font-weight:bold;border-radius:10px">
+<div class="centerBlock" style="position:absolute;top:42.4vh;left:4rem;margin:auto;width:40rem; height:29vh;background: white;font-weight:bold;border-radius:10px">
 
 
-<p style="position:relative;right:36vh;top:6vh;font-size:1.5rem">
+<p style="position:relative;right:30vh;top:6vh;font-size:1.5rem">
 Pick Up
 </p>
 
 <input type="text" class="form-group" style="position:relative;left:10vh;top:-2rem; width:17rem;  " />
 
-<button class="bookBtn btn btn-outline-primary" style="margin:20px;width:120px;position: relative;left:13vh;top:-5vh "  >
+<a href="/#/search" class="bookBtn btn btn-outline-primary" style="margin:20px;width:120px;position: relative;left:13vh;top:-5vh "  >
 Book Now
-</button>
+</a>
 
-<p style="position:relative;right:38vh;top:-4vh;font-size:1.5rem">
+<p style="position:relative;right:32vh;top:-4vh;font-size:1.5rem">
 Drop
 </p>
 
 <input type="text" style="position:relative;top:-14vh;left:12vh;width:17rem;" />
 
-<button class=" bookBtn btn btn-outline-primary" style="margin:20px;width:120px;position:relative;top:-14vh;left:15vh"  >
-Book Later
-</button>
 
-<img src="../assets/plus.png" style="position:relative;width:1.6rem; top:-6.5vh;right:72vh;cursor:pointer;"/>
-<p style="position:relative;bottom:13.8vh;right:30vh;color:#274ABB;cursor:pointer;">
+
+<a class=" bookBtn btn btn-outline-primary" style="margin:20px;width:120px;position:relative;top:-14vh;left:15vh"  >
+Book Later
+</a>
+
+<img src="../assets/plus.png" style="position:relative;width:1.6rem; top:-6.5vh;right:64vh;cursor:pointer;"/>
+<p style="position:relative;bottom:13vh;right:26vh;color:#274ABB;cursor:pointer;">
 More Options
 </p>
 </div>
@@ -216,7 +218,7 @@ button:focus{
 
 @media(min-width:800px){
   .centerBlock{
-    left: 28vw !important;
+    left: 29.5vw !important;
   }
 }
 

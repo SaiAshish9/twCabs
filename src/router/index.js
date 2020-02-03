@@ -4,6 +4,9 @@ import MainPage from '@/components/mainpage'
 import Skeleton1 from '@/components/skeleton1'
 import Skeleton2 from '@/components/skeleton2'
 import Skeleton3 from '@/components/skeleton3'
+import Search from '@/components/search'
+import Pay from '@/components/pay'
+
 
 Vue.use(Router)
 
@@ -25,6 +28,15 @@ export default new Router({
       name:'Menu3',
       path:'/menu3',
       component:Skeleton3
+    },{
+      name:'Search',
+      path:'/search',
+      component:Search
+    },
+    {
+      name:'Pay',
+      path:'/pay',
+      component:Pay
     }
   ]
 })
